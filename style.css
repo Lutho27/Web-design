@@ -1,0 +1,140 @@
+html,
+    body{
+        font-family: Roboto, sans-serif;
+        margin: 0%;
+        border-color: black;
+        color: black;
+    }
+    .body1{
+        background-image: url(https://hdqwalls.com/wallpapers/halo-infinite-c6.jpg);
+        background-size: cover;
+        background-position-x: center;
+        background-position: center center;
+        float: left;
+        border-right: 20px;
+
+    }
+
+    .jumbotron {
+        background: url(https://cdn.wallpapersafari.com/56/2/v5dwi0.jpg) no-repeat center center fixed;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+        color: white;
+        }
+    
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position: center center;
+        background-attachment: local;
+    }
+    .card{
+        background-image: url(https://wallpapertops.com/walldb/original/e/2/c/344213.jpg);
+        background-size: 50%;
+        border-radius: 40px;
+        border-color: yellowgreen; 
+        float: left;
+        
+    }
+    
+    .header{
+        text-align: center;
+        background-color: burlywood;
+        color: white;
+        padding: 15px;
+        margin-bottom: 10px;
+    }
+
+    .Menu{
+        width: 300px;
+        padding: 20px;
+        height: 50%;
+        margin: 0px;
+        border-radius: 35%;
+    }
+
+    
+    .menu-list{
+        padding: 5px;
+    }
+    
+    .Footer{
+        text-align: center;
+        background-image: url(https://hdqwalls.com/wallpapers/halo-infinite-c6.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding:  20px;
+        color: white
+        margin-top: 20px;
+    }
+    #bio:hover{ 
+        transform: scale(1.2);
+        background-color: #BD8A3B;
+        transition: background-color .6s ease;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-gap: 20px;
+    }
+    
+    .profile-picture{
+        border-radius: 50%;
+    }
+
+    .container{
+        margin: 0%;
+        padding:10px;
+    }
+
+    .img{
+        border-radius: 80%;
+        width: 90%;
+        height: 90%;
+        margin-left: 25px;
+        margin-right: 25px
+    }
+    
+    .picture{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: local;
+    }
+
+    body .logo{
+        width: 50px;
+        width: 50px;
+        padding: 10px;
+        animation: k2 2s linear infinite;
+    }
+
+    @keyframes k1{ 
+        25%{transform: rotate(-4deg);}
+        50%{ transform: rotate(0deg);}
+        75%{ transform: rotate(3deg) ;}
+        100%{ transform: rotate(0deg);}
+    }
+    @keyframes k2{
+        50%{ transform: scale(1.2);}
+        100%{ transform: scale(1);}
+    }
+
+   /*code for mobile devices smaller than 350px*/
+.jumbotron { background-image: url(https://cdn.wallpapersafari.com/56/2/v5dwi0.jpg); }
+
+/* Small devices (portrait tablets and large phones, 500px and up) */
+@media only screen and (min-width: 500px) {
+   .jumbotron { background-image: url(https://wallpapercave.com/wp/SbVVuox.jpg); }
+   .jumbotron{ color: coral;}
+} 
+
+/* Medium devices (landscape tablets, 700px and up) */
+@media only screen and (min-width: 700px) {
+   .jumbotron { background-image: url(https://hdqwalls.com/wallpapers/halo-infinite-c6.jpg);}
+   .jumbotron{ color: black; font-style: italic;}
+} 
